@@ -14,6 +14,11 @@ pipeline {
             echo 'Running unit tests'
           }
         }
+        stage('another step') {
+          steps {
+            echo 'Running unit tests'
+          }
+        }
       }
     }
   }
